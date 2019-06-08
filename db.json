@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nerdy Mug",
+      "imageUrl": "https://i.ebayimg.com/images/g/-o8AAOSwcUBYJ6aO/s-l640.jpg",
+      "price": 99.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor porttitor augue in sodales. Morbi iaculis massa sed orci rutrum, ut faucibus odio accumsan. Quisque in metus sed magna porttitor condimentum vel sit amet purus. Donec vel enim ipsum. Curabitur vel felis scelerisque, volutpat mauris non, imperdiet eros. Nullam viverra ex felis, non venenatis erat consectetur in. Pellentesque eu posuere sapien. Quisque tristique mauris non ante finibus commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tristique massa. Nullam feugiat posuere odio, sed aliquam ante vestibulum quis. Suspendisse aliquet posuere dapibus. Ut maximus erat in lectus vestibulum, at malesuada arcu mattis. Donec eget egestas magna, nec commodo purus.",
+      "freeShipping": true
+    },
+    {
+      "id": 2,
+      "name": "Programmer T-Shirt for Men",
+      "imageUrl": "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T210A1MPA3176PT17X51Y113D12278285S149Cx000000/views/1,width=800,height=800,appearanceId=1,backgroundColor=F2F2F2,modelId=1543,crop=detail,version=1555313344/computerfreak-work-home-sleep-mens-t-shirt.jpg",
+      "price": 55.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor porttitor augue in sodales. Morbi iaculis massa sed orci rutrum, ut faucibus odio accumsan. Quisque in metus sed magna porttitor condimentum vel sit amet purus. Donec vel enim ipsum. Curabitur vel felis scelerisque, volutpat mauris non, imperdiet eros. Nullam viverra ex felis, non venenatis erat consectetur in. Pellentesque eu posuere sapien. Quisque tristique mauris non ante finibus commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tristique massa. Nullam feugiat posuere odio, sed aliquam ante vestibulum quis. Suspendisse aliquet posuere dapibus. Ut maximus erat in lectus vestibulum, at malesuada arcu mattis. Donec eget egestas magna, nec commodo purus.",
+      "freeShipping": false
+    },
+    {
+      "id": 3,
+      "name": "Programmer T-Shirt for Women",
+      "imageUrl": "https://image.spreadshirtmedia.com/image-server/v1/mp/products/T347A2MPA2978PT17X44Y37D1017574435FS3402/views/1,width=800,height=800,appearanceId=2,backgroundColor=F2F2F2,modelId=2564,crop=detail,version=1551791379/cat-cant-come-to-work-sorry-boss-job-lap-sleeping-womens-t-shirt.jpg",
+      "price": 64,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor porttitor augue in sodales. Morbi iaculis massa sed orci rutrum, ut faucibus odio accumsan. Quisque in metus sed magna porttitor condimentum vel sit amet purus. Donec vel enim ipsum. Curabitur vel felis scelerisque, volutpat mauris non, imperdiet eros. Nullam viverra ex felis, non venenatis erat consectetur in. Pellentesque eu posuere sapien. Quisque tristique mauris non ante finibus commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tristique massa. Nullam feugiat posuere odio, sed aliquam ante vestibulum quis. Suspendisse aliquet posuere dapibus. Ut maximus erat in lectus vestibulum, at malesuada arcu mattis. Donec eget egestas magna, nec commodo purus.",
+      "freeShipping": true
+    },
+    {
+      "id": 4,
+      "name": "I works on my machine sticker",
+      "imageUrl": "https://res.cloudinary.com/teepublic/image/private/s--Nmlikoy_--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_191919,e_outline:48/co_191919,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1516826148/production/designs/2305875_0.jpg",
+      "price": 2.2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor porttitor augue in sodales. Morbi iaculis massa sed orci rutrum, ut faucibus odio accumsan. Quisque in metus sed magna porttitor condimentum vel sit amet purus. Donec vel enim ipsum. Curabitur vel felis scelerisque, volutpat mauris non, imperdiet eros. Nullam viverra ex felis, non venenatis erat consectetur in. Pellentesque eu posuere sapien. Quisque tristique mauris non ante finibus commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget tristique massa. Nullam feugiat posuere odio, sed aliquam ante vestibulum quis. Suspendisse aliquet posuere dapibus. Ut maximus erat in lectus vestibulum, at malesuada arcu mattis. Donec eget egestas magna, nec commodo purus.",
+      "freeShipping": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "user1",
+      "email": "user1@mail.com"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "user2",
+      "email": "user2@mail.com"
+    },
+    {
+      "username": "user3",
+      "password": "user3",
+      "email": "user3@mail.cinm",
+      "id": 3
+    }
+  ]
+}
