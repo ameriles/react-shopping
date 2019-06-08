@@ -8,6 +8,7 @@
 
 // Action Types
 export const ADD_TO_CART = 'cart/ADD_TO_CART'
+export const EMPTY_CART = 'cart/EMPTY_CART'
 
 // Initial State
 const initialState = { items: [] }
@@ -20,6 +21,11 @@ export default function reducer (state = initialState, action) {
         ...state,
         items: [...state.items, action.product]
       }
+    case EMPTY_CART:
+      return {
+        ...state,
+        items: []
+      }
     default:
       return state
   }
@@ -29,4 +35,8 @@ export default function reducer (state = initialState, action) {
 export const addToCart = (product) => ({
   type: ADD_TO_CART,
   product
+})
+
+export const emptyCart = () => ({
+  type: EMPTY_CART
 })

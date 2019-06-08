@@ -8,6 +8,7 @@
 
 import axios from 'axios'
 import { makeUrl } from '../../services'
+import { emptyCart } from './cart'
 
 // Action Types
 export const LOGIN_BEGIN = 'login/LOGIN_BEGIN'
@@ -92,4 +93,9 @@ export const login = (username, password) => async (dispatch, getState) => {
     dispatch(loginFailed(error))
     return false
   }
+}
+
+export const logout = () => (dispatch, getState) => {
+  dispatch(closeSession())
+  dispatch(emptyCart())
 }

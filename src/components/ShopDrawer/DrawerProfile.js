@@ -7,13 +7,13 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import PersonAddIcon from '@material-ui/icons/PersonAdd'
 import ExitToAppIcon from '@material-ui/icons/ExitToApp'
 import { connect } from 'react-redux'
-import { closeSession } from '../../redux/ducks/login'
+import { logout } from '../../redux/ducks/login'
 
 class DrawerProfile extends React.Component {
   onCloseSession = (event) => {
-    const { closeSession, history, location } = this.props
+    const { logout, history, location } = this.props
 
-    closeSession()
+    logout()
     location.pathname !== '/' && history.push('/')
   }
 
@@ -62,7 +62,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = ({
-  closeSession
+  logout
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(withRouter(DrawerProfile))
